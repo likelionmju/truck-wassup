@@ -3,7 +3,7 @@ TruckWassup
 
 ![Version](https://img.shields.io/badge/Version-0.9.9-green.svg) ![Build](https://img.shields.io/badge/Build-Passing-success.svg) ![Django](https://img.shields.io/badge/Python-Django-darkgreen.svg) ![Likelion](https://img.shields.io/badge/Likelion-MJU(Seoul)-9cf.svg) ![License](https://img.shields.io/badge/License-MIT-informational.svg)
 
-#### 팀원
+### 팀원
 
 ---
 
