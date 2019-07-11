@@ -25,8 +25,8 @@ TruckWassup
 
 #### 개발 포지션
 
--	Front-end:
+-	Front-end: 김만수, 김희지, 박건희, 서유림, 한종우
 
--	Back-end:
+-	Back-end: 반정훈, 변현홍, 전기석
 
--	Designer:
+-	Designer: 김희지, 전기석
