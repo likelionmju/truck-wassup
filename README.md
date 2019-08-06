@@ -15,7 +15,7 @@ TruckWassup
 
 <img alt="멋쟁이사자처럼 로고" src="markdown/images/basiclogo_E_H.png" width="225px">
 
-#### 2019 멋쟁이사자처럼 해커톤
+#### 2019 멋쟁이 사자처럼 해커톤
 
 #### [Demo][]()
 
