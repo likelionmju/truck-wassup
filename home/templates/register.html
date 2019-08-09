@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 center-align">
+        <br>
+        <div class="card">
+          <div class="col-md-10 center-align">
+            <form action="{% url 'register' %}" method="POST" enctype="multipart/form-data" class="p-3">
+              {% csrf_token %}
+              <br>
+              <label for="company">
+                <h4>회사명</h4>
+              </label>
+              <input type="text" name="company" class="form-control" placeholder="회사명을 입력해주세요">
+              <br>
+              <!-- 사진 업로드 -->
+              <div class="form-group">
+                <label for="image">
+                  <h4>사진 업로드</h4>
+                </label>
+                <br>
+                <input type="file" name="image" id="image">
+              </div>
+              <hr>
+              <div class="form-group">
+                <label for="description">
+                  <h4>설명</h4>
+                </label>
+                <textarea class="form-control" name="description" id="description" rows="10" placeholder="설명을 입력해주세요"></textarea>
+              </div>
+              <br>
+              <div class="form-group text-center">
+                <input class="btn btn-outline-primary" type="submit" value="제출">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
