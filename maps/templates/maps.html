@@ -1,9 +1,261 @@
 {%extends 'base.html' %}
 
 {%block contents%}
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_061c30507b654dc7a0ed5a859a63b57b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_061c30507b654dc7a0ed5a859a63b57b" ></div>
+        
+</body>
+<script>    
+    
+            var map_061c30507b654dc7a0ed5a859a63b57b = L.map(
+                "map_061c30507b654dc7a0ed5a859a63b57b",
+                {
+                    center: [37.580421, 126.923437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 20,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
 
+            
+
+        
+    
+            var tile_layer_de1bca7cb0744f6d96879cbd9a5771fd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+            var marker_92eadec198cf44ab96aee9ab99e0adba = L.marker(
+                [37.580421, 126.923437],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_e67270fc8bc44e7e93f907b64c1e3442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a60771bb6f4841a59fc95f043f246f = $(`<div id="html_a2a60771bb6f4841a59fc95f043f246f" style="width: 100.0%; height: 100.0%;">Myongji University</div>`)[0];
+            popup_e67270fc8bc44e7e93f907b64c1e3442.setContent(html_a2a60771bb6f4841a59fc95f043f246f);
+        
+
+        marker_92eadec198cf44ab96aee9ab99e0adba.bindPopup(popup_e67270fc8bc44e7e93f907b64c1e3442)
+        ;
+
+        
+    
+    
+            var marker_ff22e52f8540467981e1758e92f0b26a = L.marker(
+                [37.581515, 126.925015],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_39034666926d49208e47daf50a32106a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7525bfef92a94097ba05a69b1cbe9a6b = $(`<div id="html_7525bfef92a94097ba05a69b1cbe9a6b" style="width: 100.0%; height: 100.0%;">띵동와플</div>`)[0];
+            popup_39034666926d49208e47daf50a32106a.setContent(html_7525bfef92a94097ba05a69b1cbe9a6b);
+        
+
+        marker_ff22e52f8540467981e1758e92f0b26a.bindPopup(popup_39034666926d49208e47daf50a32106a)
+        ;
+
+        
+    
+    
+            var marker_18807f532a864fd0850dd5c73a294aa5 = L.marker(
+                [37.580057, 126.924613],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_66b6e9a5f3c0430d8f005f3f63a9f0b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_187f830b90c0420f854730dc4e982158 = $(`<div id="html_187f830b90c0420f854730dc4e982158" style="width: 100.0%; height: 100.0%;">핫도그팩토리</div>`)[0];
+            popup_66b6e9a5f3c0430d8f005f3f63a9f0b5.setContent(html_187f830b90c0420f854730dc4e982158);
+        
+
+        marker_18807f532a864fd0850dd5c73a294aa5.bindPopup(popup_66b6e9a5f3c0430d8f005f3f63a9f0b5)
+        ;
+
+        
+    
+    
+            var marker_bdbd1c532f3243b3b3e3c7a3a6e3e705 = L.marker(
+                [37.579985, 126.925115],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_ea32addf030c4ce4adcb8758ad9e1911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a19213edbb54bc3be775ffbf4761a0a = $(`<div id="html_7a19213edbb54bc3be775ffbf4761a0a" style="width: 100.0%; height: 100.0%;">붕어빵</div>`)[0];
+            popup_ea32addf030c4ce4adcb8758ad9e1911.setContent(html_7a19213edbb54bc3be775ffbf4761a0a);
+        
+
+        marker_bdbd1c532f3243b3b3e3c7a3a6e3e705.bindPopup(popup_ea32addf030c4ce4adcb8758ad9e1911)
+        ;
+
+        
+    
+    
+            var marker_b6ef000d35244828869dff15c2cb41d8 = L.marker(
+                [37.573945, 126.923334],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_57d4f238557842b28fb719924d395479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0296b68c8e2a421eae52bbb118243109 = $(`<div id="html_0296b68c8e2a421eae52bbb118243109" style="width: 100.0%; height: 100.0%;">타코야키</div>`)[0];
+            popup_57d4f238557842b28fb719924d395479.setContent(html_0296b68c8e2a421eae52bbb118243109);
+        
+
+        marker_b6ef000d35244828869dff15c2cb41d8.bindPopup(popup_57d4f238557842b28fb719924d395479)
+        ;
+
+        
+    
+    
+            var marker_39fb8e426ff24373bfe8206319fc51a7 = L.marker(
+                [37.581752, 126.924334],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_bbc5f0d28684422cb9171a5b4accc647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e8ea5ad955649828ca9ccc6f68957c6 = $(`<div id="html_4e8ea5ad955649828ca9ccc6f68957c6" style="width: 100.0%; height: 100.0%;">청년반점</div>`)[0];
+            popup_bbc5f0d28684422cb9171a5b4accc647.setContent(html_4e8ea5ad955649828ca9ccc6f68957c6);
+        
+
+        marker_39fb8e426ff24373bfe8206319fc51a7.bindPopup(popup_bbc5f0d28684422cb9171a5b4accc647)
+        ;
+
+        
+    
+    
+            var marker_2a1f971575414c6e96f91f0d0476e38b = L.marker(
+                [37.581375, 126.925334],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_9bac7c97138542c982594f7bcc7fae26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade493153474434192703b1a0d3fa2d9 = $(`<div id="html_ade493153474434192703b1a0d3fa2d9" style="width: 100.0%; height: 100.0%;">키다리푸드트럭</div>`)[0];
+            popup_9bac7c97138542c982594f7bcc7fae26.setContent(html_ade493153474434192703b1a0d3fa2d9);
+        
+
+        marker_2a1f971575414c6e96f91f0d0476e38b.bindPopup(popup_9bac7c97138542c982594f7bcc7fae26)
+        ;
+
+        
+    
+    
+            var marker_60b0cc6c4c4147d8842c397563c53017 = L.marker(
+                [37.581215, 126.921334],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_387b8a1bb6e148b689af226ab3229292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73bf50ade0e4498a8b3fbfb5f532050a = $(`<div id="html_73bf50ade0e4498a8b3fbfb5f532050a" style="width: 100.0%; height: 100.0%;">기도리</div>`)[0];
+            popup_387b8a1bb6e148b689af226ab3229292.setContent(html_73bf50ade0e4498a8b3fbfb5f532050a);
+        
+
+        marker_60b0cc6c4c4147d8842c397563c53017.bindPopup(popup_387b8a1bb6e148b689af226ab3229292)
+        ;
+
+        
+    
+    
+            var marker_8969a8a1c537435b865db367c38ed518 = L.marker(
+                [37.581175, 126.923434],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_ab462620129f404897eecb614856b665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df2c747671a74bb3874b1d786f072349 = $(`<div id="html_df2c747671a74bb3874b1d786f072349" style="width: 100.0%; height: 100.0%;">청년창업</div>`)[0];
+            popup_ab462620129f404897eecb614856b665.setContent(html_df2c747671a74bb3874b1d786f072349);
+        
+
+        marker_8969a8a1c537435b865db367c38ed518.bindPopup(popup_ab462620129f404897eecb614856b665)
+        ;
+
+        
+    
+    
+            var marker_4d865d9b3bb94373a9a7e9fce436a0f4 = L.marker(
+                [37.581475, 126.926234],
+                {}
+            ).addTo(map_061c30507b654dc7a0ed5a859a63b57b);
+        
+    
+        var popup_6f9c9e2a2fb34a6a9430ff2347256bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c884c58d48847bb8f1b03f7eb68249f = $(`<div id="html_2c884c58d48847bb8f1b03f7eb68249f" style="width: 100.0%; height: 100.0%;">꼬닐스</div>`)[0];
+            popup_6f9c9e2a2fb34a6a9430ff2347256bb4.setContent(html_2c884c58d48847bb8f1b03f7eb68249f);
+        
+
+        marker_4d865d9b3bb94373a9a7e9fce436a0f4.bindPopup(popup_6f9c9e2a2fb34a6a9430ff2347256bb4)
+        ;
+
+        
+    
+</script>
 <!-- <iframe> -->
-{{mark}}
+<!-- {{mark}} -->
 <!-- </iframe> -->
 <!--
 <div id="map" style="width:100%;height:400px;">
