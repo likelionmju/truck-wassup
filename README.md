@@ -7,6 +7,8 @@ TruckWassup
 
 ---
 
+<img alt="멋쟁이사자처럼 로고" src="markdown/images/twLogo.png" width="225px">
+
 #### 김만수, 김희지, 박건희, 반정훈, 변현홍, 서유림, 전기석, 한종우
 
 ### 1. INFO
