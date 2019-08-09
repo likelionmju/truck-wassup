@@ -10,12 +10,13 @@ def signup(request):
             user = User.objects.create_user(
                 request.POST['username'], password=request.POST['password1'])
             auth.login(request, user)
-            return redirect('blog')
+            return redirect('home')
     return render(request, 'accounts/signup.html')
 
 def login(request):
     if request.method == 'POST':
-        username = request.POST['username'], password = request.POST['password']
+        username = request.POST['username']
+        password = request.POST['password']
         user = auth.authenticate(request, username=username, password=password)
         if user is not None:
             auth.login(request, user)
