@@ -30,9 +30,6 @@
     padding: 0;
   }
   
-  .card .card__img, .card .card__img--hover {
-    background-image: url();
-  }
   
   .card__like {
       width: 18px;

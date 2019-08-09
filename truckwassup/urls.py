@@ -29,4 +29,4 @@ urlpatterns = [
     path('maps/', maps.views.home, name='maps'),
     path('detail/', home.views.detail, name='detail'),
     path('register/', home.views.register, name='register'),
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
