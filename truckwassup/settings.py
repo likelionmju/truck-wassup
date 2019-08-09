@@ -56,7 +56,7 @@ ROOT_URLCONF = 'truckwassup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['truckwassup/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
