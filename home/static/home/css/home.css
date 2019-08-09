@@ -10,7 +10,6 @@ body {
   height: 100vh;
   background-image: 
   url('https://images.unsplash.com/photo-1500338427510-5deb175987d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=754&q=80');
-  
   background-size: cover;
   background-position: top;
   position: relative;
@@ -32,6 +31,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
 .heading-primary {
