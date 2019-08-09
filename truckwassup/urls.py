@@ -20,9 +20,11 @@ from django.conf.urls.static import static
 
 import home.views
 import account.views
+import maps.views
 
 urlpatterns = [
     path('', home.views.home, name = 'home'),
     path('admin/', admin.site.urls),
     path('account/', include('account.urls')),
+    path('maps/', maps.views.home, name='maps'),
 ]
