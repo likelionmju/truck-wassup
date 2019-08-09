@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 center-align">
+      <br>
+      <div class="card">
+        <div class="col-md-10 center-align">
+          <br>
+          <br>
+          <h1 class="text-center">개인회원 로그인</h1>
+          <form action="{% url 'login' %}" method="POST" enctype="multipart/form-data" class="p-3">
+            {% csrf_token %}
+            <br>
+            <br>
+            <label for="id">
+              <h4>아이디</h4>
+            </label>
+            <input type="text" name="username" class="form-control" placeholder="아이디를 입력해주세요">
+            <br>
+            <br>
+            <label for="password">
+              <h4>비밀번호</h4>
+            </label>
+            <input type="password" name="password" class="form-control" placeholder="비밀번호를 입력해주세요">
+            <br>
+            <br>
+            <div class="form-group text-center">
+              <input class="btn btn-outline-primary" type="submit" value="로그인">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
