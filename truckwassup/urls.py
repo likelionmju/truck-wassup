@@ -28,4 +28,5 @@ urlpatterns = [
     path('account/', include('account.urls')),
     path('maps/', maps.views.home, name='maps'),
     path('detail/', home.views.detail, name='detail'),
+    path('register/', home.views.register, name='register'),
 ]

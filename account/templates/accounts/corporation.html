@@ -19,11 +19,6 @@
           <form action="{% url 'corporation' %}" method="POST" enctype="multipart/form-data" class="p-3">
             {% csrf_token %}
             <br>
-            <label for="company">
-              <h4>회사명</h4>
-            </label>
-            <input type="text" name="company" class="form-control" placeholder="회사명을 입력해주세요">
-            <br>
             <label for="id">
               <h4>아이디</h4>
             </label>
