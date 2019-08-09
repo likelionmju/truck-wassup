@@ -12,6 +12,7 @@ def corporation(request):
             auth.login(request, user)
 
             profile = Profile()
+            profile.company = request.POST['company']
             profile.user = user
             profile.master = True
             profile.save()
