@@ -17,5 +17,5 @@ class Profile(models.Model):
 
     master = models.BooleanField()
     company = models.CharField(max_length=255)
+
     
-      
