@@ -1,0 +1,1 @@
+web: gunicorn truckwassup.wsgi --log-file -
