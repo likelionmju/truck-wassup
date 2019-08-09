@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_257492686b7e40b4933d71b8e428a130 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_257492686b7e40b4933d71b8e428a130" ></div>
+        
+</body>
+<script>    
+    
+            var map_257492686b7e40b4933d71b8e428a130 = L.map(
+                "map_257492686b7e40b4933d71b8e428a130",
+                {
+                    center: [37.580421, 126.923437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 20,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47c892ee4ffb41a48e2e83327a83b551 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_257492686b7e40b4933d71b8e428a130);
+        
+    
+            var marker_6bacbd04447449169c3c29ad0527e738 = L.marker(
+                [37.580421, 126.923437],
+                {}
+            ).addTo(map_257492686b7e40b4933d71b8e428a130);
+        
+    
+        var popup_e1970ae54e6f46158aec52c3f674803e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0507cc6ec49d4fc78f67ceec4fdaea9f = $(`<div id="html_0507cc6ec49d4fc78f67ceec4fdaea9f" style="width: 100.0%; height: 100.0%;">Myongji University</div>`)[0];
+            popup_e1970ae54e6f46158aec52c3f674803e.setContent(html_0507cc6ec49d4fc78f67ceec4fdaea9f);
+        
+
+        marker_6bacbd04447449169c3c29ad0527e738.bindPopup(popup_e1970ae54e6f46158aec52c3f674803e)
+        ;
+
+        
+    
+    
+            var marker_2563db41f2694f6d95151194ddf6cd05 = L.marker(
+                [37.581375, 126.924334],
+                {}
+            ).addTo(map_257492686b7e40b4933d71b8e428a130);
+        
+    
+        var popup_80c2d7e8887d4325ae5ea93416d77d0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de03ce732a0446ed94a2142fc3cc5a4d = $(`<div id="html_de03ce732a0446ed94a2142fc3cc5a4d" style="width: 100.0%; height: 100.0%;">띵동와플</div>`)[0];
+            popup_80c2d7e8887d4325ae5ea93416d77d0c.setContent(html_de03ce732a0446ed94a2142fc3cc5a4d);
+        
+
+        marker_2563db41f2694f6d95151194ddf6cd05.bindPopup(popup_80c2d7e8887d4325ae5ea93416d77d0c)
+        ;
+
+        
+    
+</script>
