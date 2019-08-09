@@ -17,7 +17,7 @@ TruckWassup
 
 #### 2019 멋쟁이 사자처럼 해커톤
 
-#### [Demo][]()
+#### [Demo][http://www.truckwassup.com](http://www.truckwassup.com)
 
 #### 개발 목표
 
