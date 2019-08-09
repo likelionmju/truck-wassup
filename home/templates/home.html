@@ -1,17 +1,20 @@
-{%extends 'base.html' %}
+{% extends 'base.html' %}
 
-{%load static%}
-{%block contents%}
+{% load static %}
+{% block contents %}
 
 <link rel="stylesheet" href="{%static 'home/css/home.css'%}" type="text/css">
+
+<!-- TypeWriter CDN -->
+<script src="https://www.cssscript.com/demo/simple-typewriter-effect-pure-javascript-typewriterjs/typewriter.js"></script>
+
 <header class="header">
   <div class="text-box">
-    <h1 class="heading-primary">
-      <span class="heading-primary-main">Truck Wassup!</span>
-      <span class="heading-primary-sub">당신을 위한 푸드트럭</span>
-    </h1>
+    <h1 class="heading-primary" id="typing"></h1>
     <a href="#" class="btn btn-white btn-animated">푸드트럭 찾기</a>
   </div>
 </header>
+
+<script src="{% static 'home/js/typing.js' %}"></script>
 
 {% endblock %}
