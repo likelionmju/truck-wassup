@@ -24,3 +24,7 @@ body{
   margin:30px;
   width:80%;
 }
+.col-sm-6{
+  padding-left:10%;
+  padding-right:10%;
+}

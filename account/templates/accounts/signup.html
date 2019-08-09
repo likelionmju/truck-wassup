@@ -5,27 +5,32 @@
 <link rel="stylesheet" href="{% static 'style.css' %}">
 
 <div class="container">
-    <div class="card-deck">
-        <a href="{%url 'individual' %}" role="button" aria-pressed="true">
-            <div class="card text-center" style="max-width: 25rem;" id="card">
-                <img src="{% static 'home/images/individual.png'%}" id="signup" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h2 class="card-title">개인 회원용</h2>
-                    <h5>개인회원 이신가요?</h5>
-                </div>
-            </div>
-        </a>
-        <a href="{%url 'corporation' %}" role="button" aria-pressed="true">
-            <div class="card text-center" style="max-width: 25rem;" id="card">
-                <img src="{% static 'home/images/corporation.png'%}" id="signup" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h2 class="card-title">푸드트럭 사장님용</h2>
-                    <h5>푸드트럭 사장님 이신가요?</h5>
-                </div>
-            </div>
-    </div>
-    </a>
+  <div class="card-deck">
+    <div class="col-sm-6">
+      <a href="{%url 'individual' %}" role="button" aria-pressed="true">
+        <div class="card text-center" style="max-width: 25rem;" id="card">
+          <img src="{% static 'home/images/individual.png'%}" id="signup" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">개인 회원용</h2>
+            <h5>개인회원 이신가요?</h5>
+          </div>
+        </div>
 
+      </a>
+    </div>
+
+    <div class="col-sm-6">
+      <a href="{%url 'corporation' %}" role="button" aria-pressed="true">
+        <div class="card text-center" style="max-width: 25rem;" id="card">
+          <img src="{% static 'home/images/corporation.png'%}" id="signup" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">푸드트럭 사장님용</h2>
+            <h5>푸드트럭 사장님 이신가요?</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 
 </div>
 
