@@ -56,6 +56,9 @@
             <a class="nav-item nav-link" href="{% url 'login' %}">로그인</a>
         </li>
         {% endif %}
+        <li class = 'nav-item'>
+            <a class = 'nav-item nav-link' href="{% url 'dev' %}"> 개발자 소개 </a>
+        </li>
 
         {% if request.user.profile.master == True %}
         <li class="nav-item">
@@ -69,7 +72,7 @@
 
 {% block contents %}
 
-# 이 안에 겹치지 않는 컨텐츠가 들어갈 예정
+<br>
 
 {% endblock %}
 

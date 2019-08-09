@@ -5,6 +5,9 @@ from account.models import Profile
 def home(request):
     return render(request, 'home.html')
 
+def dev(request):
+    return render(request, 'dev.html')
+
 def detail(request):
     foodtrucks = FoodTruck.objects
     profiles = Profile.objects

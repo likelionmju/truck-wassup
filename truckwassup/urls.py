@@ -29,4 +29,5 @@ urlpatterns = [
     path('maps/', maps.views.home, name='maps'),
     path('detail/', home.views.detail, name='detail'),
     path('register/', home.views.register, name='register'),
+    path('dev/', home.views.dev, name='dev'),
 ]
