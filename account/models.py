@@ -18,4 +18,7 @@ class Profile(models.Model):
     master = models.BooleanField()
     company = models.CharField(max_length=255, null=True, blank=True)
 
+    def __str__(self):
+        return self.user.username
+
     
