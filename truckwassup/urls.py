@@ -19,6 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 import home.views
+import account.views
 
 urlpatterns = [
     path('', home.views.home, name = 'home'),
