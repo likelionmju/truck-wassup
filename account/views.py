@@ -12,6 +12,8 @@ def corporation(request):
             auth.login(request, user)
 
             profile = Profile()
+            profile.company = request.POST['company']
+            profile.area = request.POST['area']
             profile.user = user
             profile.master = True
             profile.save()
@@ -27,6 +29,7 @@ def individual(request):
             auth.login(request, user)
             
             profile = Profile()
+            profile.area = request.POST['area']
             profile.user = user
             profile.master = False
             profile.save()

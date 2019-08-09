@@ -19,6 +19,11 @@
           <form action="{% url 'corporation' %}" method="POST" enctype="multipart/form-data" class="p-3">
             {% csrf_token %}
             <br>
+            <label for="company">
+              <h4>회사명</h4>
+            </label>
+            <input type="text" name="company" class="form-control" placeholder="회사명을 입력해주세요">
+            <br>
             <label for="id">
               <h4>아이디</h4>
             </label>
@@ -33,6 +38,33 @@
               <h4>비밀번호 확인</h4>
             </label>
             <input type="password" name="password2" class="form-control" placeholder="비밀번호를 입력해주세요">
+            <br>
+            <label for="area">
+              <h4>지역</h4>
+            </label>
+            <div class="row">
+              <div class="col-sm-5">
+                <select name = 'area' class="form-control">
+                  <option value="서울">서울</option>
+                  <option value="부산">부산</option>
+                  <option value="대구">대구</option>
+                  <option value="인천">인천</option>
+                  <option value="광주">광주</option>
+                  <option value="대전">대전</option>
+                  <option value="울산">울산</option>
+                  <option value="세종">세종</option>
+                  <option value="경기도">경기도</option>
+                  <option value="강원도">강원도</option>
+                  <option value="충청북도">충청북도</option>
+                  <option value="충청남도">충청남도</option>
+                  <option value="전라북도">전라북도</option>
+                  <option value="전라남도">전라남도</option>
+                  <option value="경상북도">경상북도</option>
+                  <option value="경상남도">경상남도</option>
+                  <option value="제주도">제주도</option>
+                </select>
+              </div>
+            </div>
             <br>
             <div class="form-group text-center">
               <input class="btn btn-outline-primary" type="submit" value="회원가입">
