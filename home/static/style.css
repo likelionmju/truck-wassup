@@ -3,10 +3,22 @@
   margin: 0 auto;
 }
 body{
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 .container{
   margin-top:20px;
   margin-bottom:100px;
+}
+.card-deck{
+  margin:100px;
+  padding:15px;
+}
+#card{
+  margin:5%;
+}
+#signup{
+  margin:30px;
+  width:80%;
 }
