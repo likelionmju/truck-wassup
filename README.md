@@ -41,4 +41,6 @@ TruckWassup
 
 -	Back-end: 반정훈, 변현홍, 전기석
 
+- Server manager: 한종우
+
 -	Designer: 김희지, 전기석
